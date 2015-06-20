@@ -3,7 +3,7 @@
 import csv
 from itertools import groupby
 
-acs_root = '/mnt/tmp/acs2010_1yr'
+acs_root = '/acs/tmp/acs2010_1yr'
 sequence_tables_sql_root = '.'
 
 

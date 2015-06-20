@@ -16,7 +16,7 @@ import sys
 
 parser = argparse.ArgumentParser(description="Build SQL for an ACS release")
 parser.add_argument('release', help='Which ACS release to use.')
-parser.add_argument('--data_root', default='/mnt/tmp', help='The root directory for the raw data.')
+parser.add_argument('--data_root', default='/acs/tmp', help='The root directory for the raw data.')
 parser.add_argument('--working_dir', default='.', help='The directory to store finished and working files.')
 
 args = parser.parse_args()
